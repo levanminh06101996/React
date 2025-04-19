@@ -5,12 +5,12 @@ import AppRoutes from "@/components/AppRoutes";
 import "./App.css";
 
 function App() {
-    return (
-        <Router>
-            <ScrollTop />
-            <AppRoutes />
-        </Router>
-    );
+  return (
+    <Router>
+      <ScrollTop />
+      <AppRoutes />
+    </Router>
+  );
 }
 
 export default App;
